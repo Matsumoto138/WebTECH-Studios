@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav{
+    background: rgb(255,255,255);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(190, 190, 190) 100%);
+transition: all 0.3s ease ;
+top: 0;
+}
+
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(190, 189, 189) 100%);
+font-family: "Poppins",sans-serif;
+}
+
+nav ul li a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+nav ul li:hover a{
+    background-color: rgb(224, 221, 221);
+    
+}
+
+.brand a{
+    font-family: 'Lemonada', cursive;
+    font-size: 24px;
+}
+
+.banner{
+    background: rgb(255,255,255);
+    background: linear-gradient(to right, rgb(65, 65, 65) 0%, rgb(24, 24, 24) 100%);
+    position: relative;
+}
+
+.banner img{
+    
+    opacity: 0.3;
+}
+
+.banner .banner-text{
+    position: absolute;
+    padding: 5%;
+    border: 5px solid rgb(212, 211, 211);
+    color: rgb(216, 212, 212);
+}
+
+.container-fluid{
+   
+line-height: 24px;
+}
+
+.container-fluid .container-fluid{
+    background: rgb(255,255,255);
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgb(190, 189, 189) 100%);
+    padding: 0;
+    box-shadow: 6px 6px 5px 0px rgba(50, 50, 50, 0.35);
+}
+
+.container-fluid .container-fluid img{
+    box-shadow:  6px 6px 5px 0px rgba(50, 50, 50, 0.35);
+}
+
+.container-fluid #competition img{
+    box-shadow:  -6px 6px 5px 0px rgba(50, 50, 50, 0.35);
+    padding: 0;
+}
+
+footer .btn{
+    
+    margin-left: auto;
+}
+
+footer{
+    background: linear-gradient(to right, rgba(65, 65, 65,0.3) 0%, rgba(24, 24, 24,0.3) 100%);
+}
+
+@media screen and (max-width:600px){
+    #first-text,#first-pic{
+        margin: 20px 0;
+    }
+
+    #second-text{
+        margin: 20px 0;
+    }
+
+    #second-pic{
+        margin: 20px 0;
+    }
+
+    .about-me img{
+        display: none;
+    }
+
+}
+
+
+

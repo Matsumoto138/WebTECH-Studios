@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+#navbar{
+    top : 0;
+    transition: all 0.3s ease;
+    background: rgb(33,37,41);
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-nav li a{
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+
+.navbar-nav li a:hover{
+    
+    background-color: rgba(104, 104, 104, 0.596);
+}
+
+#products a{
+    text-decoration:none;
+    color:rgb(33,37,41);
+    
+}
+
+#products .col-xl-4{
+    transition: transform 0.3s;
+}
+
+#products .col-xl-4:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    box-shadow: 5px 5px 30px rgb(197, 197, 197);
+}
+
+footer{
+    background-color: rgba(27, 26, 24, 0.93);
+}
+

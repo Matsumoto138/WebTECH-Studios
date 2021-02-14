@@ -1,0 +1,59 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background: linear-gradient(rgba(6,6,6,0.7),rgba(6,6,6,0.7)) , url(image/pexels-photo-373912.jpeg) ;
+    background-size: cover;
+}
+
+header .brand a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav .navbar-collapse a:hover{
+   
+    background-color: gray;
+    transition: 200ms;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+section .container{
+    
+    background:linear-gradient(rgba(6,6,6,0.7) , rgba(6,6,6,0.7)), url(image/26372321-amsterdam-canal-street-view-horizontal-filtered-shot.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f1f1f1;
+}
+
+footer{
+    height: 50vh;
+    background: rgba(6,6,6,0.7);
+    font-size: 24px;
+   
+}
+
+footer a{
+    color: white;
+
+}
+
+a#twitter:hover{
+    color: #00aced;
+}
+
+a#facebook:hover{
+    color: #3b5998;
+}
+
+a#instagram:hover{
+    color: rgb(236, 127, 225);
+}
+
+a#tumblr:hover{
+    color: #32506d;
+}

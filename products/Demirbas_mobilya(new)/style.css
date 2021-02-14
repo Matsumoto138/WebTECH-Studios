@@ -1,0 +1,14 @@
+header nav{
+    box-shadow: 3px 4px 20px rgb(202, 202, 202);
+    
+}
+
+.mid .card{
+    background-color: rgb(175, 174, 174);
+}
+
+.mid{
+    background:linear-gradient(rgba(13,13,13,0.4),rgba(13,13,13,0.4)), url(image/Furniture_template.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

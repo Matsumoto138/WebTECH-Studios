@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(43, 43, 43);
+}
+
+.navbar{
+    background-color: rgba(43, 43, 43,0.2);
+    transition: all 0.5s ease;
+}
+
+.navbar a{
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover{
+    background-color: rgb(158, 158, 158);
+}
+
+.behind-banner{
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+
+.banner {
+    z-index: -1;
+}
+
+ul a{
+    color: white;
+}
+
+nav button{
+    margin-left: auto;
+}
+
+#introduction{
+    line-height: 32px;
+}
+
+#about-us{
+    line-height: 32px;
+}
+
+#products a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#products .col-xl-4{
+    transition: transform 0.3s;
+}
+
+#products .col-xl-4:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+@media screen and (max-width: 1400px){
+    #about-us{
+        margin-top: 30vh;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #about-us{
+        margin-top: 10vh;
+    }
+
+    
+}
