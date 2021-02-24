@@ -24,7 +24,7 @@ body{
 }
 
 .navbar-brand #blood{
-    color: rgb(146, 0, 190);
+    color: rgb(139, 139, 139);
 }
 
 .navbar-brand #room{
@@ -48,6 +48,14 @@ body{
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
     background: rgb(179, 177, 177);
     
+}
+.navbar-toggler{
+    opacity: 0.6;
+}
+
+.banner video{
+    width: 100%;
+    filter: brightness(70%);
 }
 
 .footer{
