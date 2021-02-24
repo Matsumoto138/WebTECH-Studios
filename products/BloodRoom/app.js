@@ -1,8 +1,13 @@
 const navbarBtn = document.querySelector(".navbar-toggler");
 const navBar = document.querySelector("#navbar");
 const links = document.querySelectorAll(".nav-link");
+const video = document.querySelector(".banner video");
 var counter = 0;
 var scrollPosition = window.pageYOffset;
+
+video.addEventListener("load",()=>{
+    video.play();
+});
 
 
 navbarBtn.addEventListener("click",()=>{
